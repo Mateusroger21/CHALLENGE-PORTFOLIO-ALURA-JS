@@ -137,7 +137,7 @@ a {
 .container_terciario {
     display: flex;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     gap: 20px;
 }
@@ -569,7 +569,28 @@ label {
     font-size: 20px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1510px) {
+
+    .secao_sexta { 
+        display: flex;
+        background-color: #EAF2FD;
+        flex-direction: row-reverse;
+        padding: 150px 70px 84px 1px;
+        width: 102vw;
+        margin-left: -11%;
+        margin-top: 48px;
+        gap: 49px;
+}
+}
+
+.container_sexto {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 454px) {
+    /* mobile */
 
     .container_principal {
         margin-left: 4%;
@@ -666,6 +687,11 @@ label {
 
     .container_terciario {
         gap: 16px;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0px;
+        align-items: center;
     }
 
     .lista {
