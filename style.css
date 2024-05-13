@@ -166,7 +166,7 @@ a {
 
 .secao_quarta {
     display: flex;
-    justify-content: row;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #EAF2FD;
@@ -175,15 +175,16 @@ a {
     margin-left: -10%;
     margin-right: -10%;
     padding-right: 10%;
-    padding-left: 10%;
+    padding-left: 10%; 
     padding-bottom: 5%;
 }
-
 
 .titulo_quarto {
     display: flex;
     font-size: 40px;
     justify-content: center;
+    margin-top: 7%;
+    margin-bottom: 0px;
 }
 
 .container_quarto {
@@ -711,8 +712,7 @@ label {
     }
 
     .secao_quarta {
-        padding-top: 50px;
-        width: 350px;
+        padding-top: 14px;
         margin-bottom: 0;
         padding-bottom: 0;
     }
