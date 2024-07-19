@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+body {
+    box-sizing: border-box;
+}
+
 .container_principal {
     margin-left: 8%;
     margin-right: 8%;
@@ -29,7 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    font-size: 20px;
+    font-size: 14px
 }
 
 /* Fim da 1 seção  */
@@ -47,14 +51,14 @@ a {
 
 .texto_apresentacao {
     margin-top: 100px;
-    font-size: 80px;
+    font-size: 28px;
 }
 
 .texto__apresentacao {
     display: flex;
     margin-top: 50px;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 350;
 }
 
@@ -62,8 +66,8 @@ a {
     display: flex;
     margin-top: 40px;
     align-items: center;
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
     gap: 50px;
 }
 
@@ -74,14 +78,14 @@ a {
 }
 
 .seta {
-    height: 18px;
+    height: 12px;
 }
 
-
 .img_perfil {
-    width: 410px;
     margin-top: 80px;
-    margin-right: 1px;
+    height: 250px;
+    width: 264px;
+    border-radius: 100%;
 }
 
 .secao_secundaria {
@@ -97,13 +101,13 @@ a {
 
 .sobre_mim {
     display: flex;
-    font-size: 45px;
+    font-size: 28px;
     margin-top: 70px;
     padding-top: 2%;
 }
 
 .paragrafo_texto {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 300;
     margin-top: 18px;
     width: 73%;
@@ -123,13 +127,13 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 150px;
+    margin-bottom: 60px;
 }
 
 .titulo_terciario {
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 28px;
     margin-bottom: 50px;
 
 }
@@ -146,7 +150,7 @@ a {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-start;
-    padding: 130px 60px 18px 22px;
+    padding: 100px 0px 18px 22px;
     width: 170px;
     background-color: white;
     gap: 15px;
@@ -154,7 +158,7 @@ a {
 
 .img_lista {
     display: flex;
-    width: 40px;
+    width: 32px;
 }
 
 .img__lista {
@@ -175,15 +179,15 @@ a {
     margin-left: -10%;
     margin-right: -10%;
     padding-right: 10%;
-    padding-left: 10%; 
+    padding-left: 10%;
     padding-bottom: 5%;
 }
 
 .titulo_quarto {
     display: flex;
-    font-size: 40px;
+    font-size: 28px;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 2%;
     margin-bottom: 0px;
 }
 
@@ -191,12 +195,12 @@ a {
     display: flex;
     list-style: none;
     flex-direction: row;
-    gap: 45px;
-    margin-top: 4%;
+    gap: 54px;
+    margin-top: 3%;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 5%;
+    margin-bottom: 6%;
 }
 
 .lista_academica {
@@ -204,12 +208,12 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 92px;
+    /* gap: 92px; */
     border: 1px solid transparent;
-    padding-top: 159px;
+    padding-top: 120px;
     background-color: white;
-    width: 497px;
-    height: 164px;
+    width: 270px;
+    height: 100px;
 }
 
 .lista_descricao {
@@ -229,7 +233,9 @@ a {
     display: flex;
     list-style-type: none;
     gap: 8px;
-    padding-top: 3px;
+    padding-top: 80px;
+    padding-left: 224px;
+    font-size: 18px;
 }
 
 .descricao_da_descricao {
@@ -240,8 +246,7 @@ a {
 .img_quarta {
     display: flex;
     justify-content: space-between;
-    width: 227px;
-    height: 167px;
+    height: 97px;
 }
 
 /* Fim da 4 seção  */
@@ -257,12 +262,13 @@ a {
 .titulo_quinto {
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 28px;
     margin-bottom: 30px;
 }
 
 .container_quinto {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
@@ -275,7 +281,7 @@ a {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    gap: 31px;
+    gap: 56px;
 }
 
 .lista_experiencia2 {
@@ -286,7 +292,7 @@ a {
     flex-wrap: wrap;
 }
 
-.lista_experiencia4{
+.lista_experiencia4 {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -296,16 +302,17 @@ a {
 
 .img_experiencia {
     display: flex;
-    width: 1137px;
+    width: 550px;
 }
 
 .img_experiencia2 {
     display: flex;
-    width: 1137px;
+    width: 550px;
 }
 
-.img_experiencia4{
-    width: 1137px;
+.img_experiencia4 {
+    display: flex;
+    width: 550px;
 }
 
 .titulo_experiencia {
@@ -314,7 +321,7 @@ a {
     align-items: flex-start;
     gap: 1px;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .titulo_experiencia2 {
@@ -323,7 +330,7 @@ a {
     align-items: flex-start;
     gap: 1px;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .titulo_experiencia4 {
@@ -332,12 +339,12 @@ a {
     align-items: flex-start;
     gap: 1px;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .descricao_experiencia {
     display: flex;
-    font-size: 22px;
+    font-size: 14px;
     font-weight: 400;
     flex-direction: column;
     gap: 15px;
@@ -345,7 +352,7 @@ a {
 
 .descricao_experiencia2 {
     display: flex;
-    font-size: 22px;
+    font-size: 14px;
     font-weight: 400;
     flex-direction: column;
     gap: 15px
@@ -362,9 +369,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 51px;
-    width: 116px;
-    font-size: 16px;
+    height: 42px;
+    width: 90px;
+    font-size: 12px;
     font-family: 'Raleway';
     font-weight: 500;
     color: #2A7AE4;
@@ -376,9 +383,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 51px;
-    width: 116px;
-    font-size: 16px;
+    height: 42px;
+    width: 90px;
+    font-size: 12px;
     background-color: #2A7AE4;
     border: none;
     color: #FFFFFF;
@@ -408,27 +415,26 @@ a {
     display: flex;
     background-color: #EAF2FD;
     flex-direction: row-reverse;
-    padding: 150px 2px 84px 1px;
-    width: 102vw;
-    margin-left: -11%;
+    padding: 150px 300px 84px 1px;
+    width: 80vw;
     margin-top: 48px;
+    margin-left: -10%;
     gap: 49px;
 }
 
 .container_sexto {
     display: flex;
     flex-direction: column;
-    width: 1050px;
 }
 
 .titulo_contato {
     display: flex;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 8px;
 }
 
 .descricao_contato {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .input_container {
@@ -438,16 +444,16 @@ a {
 }
 
 input {
-    width: 100%;
+    width: 60%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    height: 55px;
+    height: 22px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.span-required{
+.span-required {
     display: none;
     font-size: 16px;
     color: red;
@@ -497,9 +503,9 @@ label {
 
 #mensagem {
     font-size: 16px;
-    width: 100%;
+    width: 60%;
     padding: 10px;
-    height: 165px;
+    height: 130px;
     border: 1px solid #ccc;
     border-radius: 5px;
     resize: none;
@@ -514,22 +520,22 @@ label {
     height: 133px;
     margin-top: 32px;
 }
-
+/* 
 .img_telefone {
     display: flex;
     justify-content: flex-start;
-    width: 42.5em;
-}
+    height: 39em;
+    width: 20.9em;
+} */
 
 .botao_enviar_mensagem {
-    width: 180px;
+    width: 170px;
     height: 62px;
     padding: 0px 11px;
     font-size: 18px;
     background-color: #2a7ae4;
     color: #d4e4fa;
     border: 1px solid transparent;
-    margin-top: 11%;
 }
 
 .botao_enviar_mensagem:hover {
@@ -557,8 +563,8 @@ label {
     height: 80px;
     width: 116.3vw;
     margin-right: 90px;
-    font-size: 23px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 700;
     margin-left: -18.6%;
     margin-right: -16.9%;
     margin-top: -4px
@@ -570,27 +576,26 @@ label {
     font-size: 20px;
 }
 
-@media (max-width: 1510px) {
+@media (max-width: 1195px) {
 
-    .secao_sexta { 
+    .secao_sexta {
         display: flex;
         background-color: #EAF2FD;
         flex-direction: row-reverse;
         padding: 150px 70px 84px 1px;
         width: 102vw;
-        margin-left: -11%;
         margin-top: 48px;
         gap: 49px;
-}
+    }
+
+    .container_sexto {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-.container_sexto {
-    display: flex;
-    flex-direction: column;
-}
 
-
-@media (max-width: 454px) {
+@media (max-width: 898px) {
     /* mobile */
 
     .container_principal {
@@ -625,6 +630,7 @@ label {
         width: 98px;
         justify-content: center;
         margin-top: 0px;
+
     }
 
     .texto_apresentacao {
@@ -747,7 +753,7 @@ label {
         font-size: 16px;
     }
 
-     .container_quinto {
+    .container_quinto {
         flex-direction: column;
     }
 
@@ -762,15 +768,15 @@ label {
         gap: 7px;
     }
 
-     .titulo_experiencia2 {
+    .titulo_experiencia2 {
         flex-direction: column;
         font-size: 16px;
         margin-left: -5;
         gap: 7px;
         width: 311px;
-    } 
+    }
 
-    .titulo_experiencia4 {  
+    .titulo_experiencia4 {
         flex-direction: column;
         font-size: 16px;
         gap: 7px;
@@ -786,13 +792,13 @@ label {
         flex-direction: column;
     }
 
-    .lista_experiencia2{
+    .lista_experiencia2 {
         flex-direction: column;
         width: 296px;
         gap: 8px;
     }
 
-    .lista_experiencia4{
+    .lista_experiencia4 {
         flex-direction: column;
         width: 296px;
         gap: 15px;
@@ -803,19 +809,19 @@ label {
         width: 296px;
     }
 
-    .img_experiencia2{
+    .img_experiencia2 {
         width: 296px;
         margin-left: -15px;
         padding-bottom: 30px;
     }
 
-    .img_experiencia4{
+    .img_experiencia4 {
         width: 296px;
-        margin-right: -4px;  
+        margin-right: -4px;
         padding-bottom: 30px;
     }
-    
-    .descricao_experiencia2{
+
+    .descricao_experiencia2 {
         font-size: 14px;
         gap: 8px;
     }
@@ -830,13 +836,13 @@ label {
         width: 96px;
     }
 
-    .secao_sexta{
+    .secao_sexta {
         flex-direction: column;
         padding: 46px 2px 46px 14px;
         margin-left: -19px;
     }
 
-    .container_sexto{
+    .container_sexto {
         width: 250px;
         margin-left: 42px;
     }
